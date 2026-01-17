@@ -1,0 +1,39 @@
+/clone ~ ~ ~
+/clone ~ ~ ~ ~ ~ ~
+/clone from minecraft:overworld ~ ~ ~ ~ ~ ~
+/gamemode creative
+/gamemode survival
+/believable reset pet
+/believable reset master
+/xp add master 5
+/xp add master 10
+/xp add master 100
+/xp add master 1000
+/xp add master 10
+/xp add master 100
+/give master beef 16
+/time set night
+/give master minecraft:iron_axe
+/give master beef 16
+/spawnpoint
+/gamerule keepInventory true
+/time set night
+/gamemode creative
+/give master minecraft:stone_sword
+/summon minecraft:zombie ~ ~ ~
+/give master minecraft:cooked_beef 16
+/give master minecraft:enchanting_table
+/xp add master 100000
+/time set night
+/summon minecraft:zombie
+/give master minecraft:enchanting_table
+/give master map
+/believable shadow_test title "Hello world!"
+/believable shadow_test description "The server controls what you see."
+/believable shadow_test title "Hello world!"
+/believable reset master
+/give master map
+/believable reset master
+/give master minecraft:smithing_table
+/give master minecraft:iron_ingot 64
+/believable reset master

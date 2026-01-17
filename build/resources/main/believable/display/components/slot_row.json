@@ -1,0 +1,10 @@
+{
+  "type": "container",
+  "width": "100%",
+  "height": 22,
+  "color": "#FF101827",
+  "children": [
+    { "type": "text", "x": 6, "y": 6, "text": "$label", "color": "#FF9FB3C8" },
+    { "type": "text", "x": "50%", "y": 6, "text": "$equipped", "color": "#FFF6E4B2" }
+  ]
+}

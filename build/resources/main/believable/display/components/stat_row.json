@@ -1,0 +1,92 @@
+{
+  "type": "container",
+  "width": "100%",
+  "height": 32,
+  "clip": true,
+  "children": [
+    {
+      "type": "box",
+      "width": "100%",
+      "height": "100%",
+      "color": "#AA141E30",
+      "borderColor": "#1FFFFFFF",
+      "borderSize": 1
+    },
+    {
+      "type": "container",
+      "width": "100%",
+      "height": "100%",
+      "padding": 4,
+      "flexDirection": "row",
+      "alignItems": "center",
+      "justifyContent": "space-between",
+      "gap": 8,
+      "children": [
+        { "type": "text", "text": "$name", "color": "#FFB7C6DC", "marginLeft": 2 },
+        {
+          "type": "container",
+          "height": "100%",
+          "flexDirection": "row",
+          "alignItems": "center",
+          "gap": 4,
+          "marginRight": 4,
+          "children": [
+            {
+              "type": "container",
+              "width": 20,
+              "height": 20,
+              "children": [
+                {
+                  "type": "container", "width": "100%", "height": "100%", "onClick": "$eventDecrease",
+                  "visibleWhen": { "key": "canDecrease", "value": "true" },
+                  "children": [
+                    { "type": "box", "width": "100%", "height": "100%", "color": "#FF2B3E62", "hoverColor": "#FF3B4E72", "borderColor": "#33FFFFFF", "borderSize": 1 },
+                    { "type": "text", "text": "-", "centered": true, "width": "100%", "height": "100%", "color": "#FFF6E4B2", "scale": 1.2 }
+                  ]
+                },
+                {
+                  "type": "container", "width": "100%", "height": "100%",
+                  "visibleWhen": { "key": "canDecrease", "value": "false" },
+                  "children": [
+                    { "type": "box", "width": "100%", "height": "100%", "color": "#FF1C2A44", "borderColor": "#1FFFFFFF", "borderSize": 1 },
+                    { "type": "text", "text": "-", "centered": true, "width": "100%", "height": "100%", "color": "#667B8C9E", "scale": 1.2 }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "container", "width": 30, "height": 20,
+              "children": [
+                 { "type": "box", "width": "100%", "height": "100%", "color": "#44000000", "borderColor": "#11FFFFFF", "borderSize": 1 },
+                 { "type": "text", "text": "$value", "color": "#FFF6E4B2", "centered": true, "width": "100%", "height": "100%" }
+              ]
+            },
+            {
+              "type": "container",
+              "width": 20,
+              "height": 20,
+              "children": [
+                {
+                  "type": "container", "width": "100%", "height": "100%", "onClick": "$eventIncrease",
+                  "visibleWhen": { "key": "canIncrease", "value": "true" },
+                  "children": [
+                    { "type": "box", "width": "100%", "height": "100%", "color": "#FF2B3E62", "hoverColor": "#FF3B4E72", "borderColor": "#33FFFFFF", "borderSize": 1 },
+                    { "type": "text", "text": "+", "centered": true, "width": "100%", "height": "100%", "color": "#FFF6E4B2", "scale": 1.2 }
+                  ]
+                },
+                {
+                  "type": "container", "width": "100%", "height": "100%",
+                  "visibleWhen": { "key": "canIncrease", "value": "false" },
+                  "children": [
+                    { "type": "box", "width": "100%", "height": "100%", "color": "#FF1C2A44", "borderColor": "#1FFFFFFF", "borderSize": 1 },
+                    { "type": "text", "text": "+", "centered": true, "width": "100%", "height": "100%", "color": "#667B8C9E", "scale": 1.2 }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

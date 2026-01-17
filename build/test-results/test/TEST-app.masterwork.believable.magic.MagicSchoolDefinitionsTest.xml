@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.masterwork.believable.magic.MagicSchoolDefinitionsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-01-10T10:01:02" hostname="GOAT_OS" time="0.034">
+  <properties/>
+  <testcase name="tabKeyRoundTrip()" classname="app.masterwork.believable.magic.MagicSchoolDefinitionsTest" time="0.032"/>
+  <testcase name="tabKeysResolveToSchools()" classname="app.masterwork.believable.magic.MagicSchoolDefinitionsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

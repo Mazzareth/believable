@@ -1,0 +1,19 @@
+{
+  "type": "container",
+  "width": "100%",
+  "height": 24,
+  "children": [
+    { "type": "box", "width": "100%", "height": "100%", "color": "#FF121C31" },
+    {
+      "type": "container",
+      "width": "100%",
+      "height": "100%",
+      "padding": 4,
+      "alignItems": "center",
+      "flexDirection": "row",
+      "children": [
+        { "type": "text", "text": "$label", "translate": true, "color": "#FFB7C6DC", "marginLeft": 4 }
+      ]
+    }
+  ]
+}

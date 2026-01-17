@@ -1,0 +1,28 @@
+{
+  "type": "container",
+  "width": "100%",
+  "height": 24,
+  "children": [
+    {
+      "type": "box",
+      "width": "100%",
+      "height": "100%",
+      "color": "#FF121C31",
+      "borderColor": "#1FFFFFFF",
+      "borderSize": 1
+    },
+    {
+      "type": "container",
+      "width": "100%",
+      "height": "100%",
+      "padding": 4,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "alignItems": "center",
+      "children": [
+        { "type": "text", "text": "$label", "color": "#FFB7C6DC", "marginLeft": 4 },
+        { "type": "text", "text": "$value", "color": "#FFF6E4B2", "marginRight": 4 }
+      ]
+    }
+  ]
+}

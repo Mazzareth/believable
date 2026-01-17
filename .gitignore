@@ -1,0 +1,10 @@
+.gradle/
+build/
+run/
+logs/
+# Generated resources
+src/generated/
+# IDE
+.idea/
+.vscode/
+*.iml
